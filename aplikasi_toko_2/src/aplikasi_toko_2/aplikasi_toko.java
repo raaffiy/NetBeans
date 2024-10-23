@@ -21,7 +21,7 @@ public class aplikasi_toko extends javax.swing.JFrame {
 
     /**
      * Creates new form aplikasi_toko
-     */
+     */ 
     public aplikasi_toko() {
         initComponents();
         tampil();
@@ -86,12 +86,12 @@ public class aplikasi_toko extends javax.swing.JFrame {
         stok.setEnabled(false);
     };
         
-         private void bersih (){
+    private void bersih (){
         kd_barang.setText("");
         nm_barang.setText("");
         hrg_jual.setText("");
         stok.setText("");
-         };
+    };
         
     private void simpan (){
         if(kd_barang.getText().isEmpty() || nm_barang.getText().isEmpty() || hrg_jual.getText().isEmpty() || stok.getText().isEmpty()){
